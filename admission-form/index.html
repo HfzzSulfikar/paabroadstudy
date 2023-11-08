@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register</title>
+  <meta name="description" content="Unlock language excellence and digital prowess at Perfect English Academy in Irinjalakuda. Explore expert courses in IELTS, OET, PTE, German, spoken English, and digital marketing. Join us today!">
+
+  <title>Admission Form | PA STUDY ABROAD</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -13,21 +15,22 @@
     <!-- Author: FormBold Team -->
     <!-- Learn More: https://formbold.com -->
     <div class="formbold-form-wrapper"><center><br>
-      <img src="https://thepastudyabroad.com/img/logo.png" style="height: 100px;margin-bottom: 30px"></center>
+      <img src="https://thepastudyabroad.com/img/logo.png" style="height: 100px;margin-bottom: 30px;margin-top: 20px;"></center>
       <form action="https://thintry-mailer.sajadpp.repl.co/api/send-email" method="post" onsubmit="sendEmail(event);" enctype="multipart/form-data">
+        <h3 style="margin-bottom: 20px;margin-top: 20px">Admission Form</h3>
         <div class="formbold-input-wrapp formbold-mb-3">
           <label for="firstname" class="formbold-form-label"> Name </label>
 
           <div>
             <input type="text" name="firstname" id="firstname" placeholder="First name" class="formbold-form-input" required/>
             <input type="text" name="middlename" id="middlename" placeholder="Middle Name"
-              class="formbold-form-input" />
-            <input type="text" name="lastname" id="lastname" placeholder="Last name" class="formbold-form-input" />
+              class="formbold-form-input" required />
+            <input type="text" name="lastname" id="lastname" placeholder="Last name" class="formbold-form-input" required />
           </div>
         </div>
         <div class="formbold-mb-3">
           <label for="email" class="formbold-form-label"> Email </label>
-          <input type="email" name="email" id="email" placeholder="example@email.com" class="formbold-form-input" />
+          <input type="email" name="email" id="email" placeholder="example@email.com" class="formbold-form-input" required/>
         </div>
         <div class="formbold-mb-3 formbold-input-wrapp">
           <label for="phone" class="formbold-form-label"> Phone </label>
@@ -35,7 +38,7 @@
           <div>
 
 
-            <input type="text" name="phone" id="phone" placeholder="Phone number" class="formbold-form-input" />
+            <input type="text" name="phone" id="phone" placeholder="Phone number" class="formbold-form-input" required />
           </div>
         </div>
         <div class="formbold-mb-3 formbold-input-wrapp">
@@ -44,19 +47,19 @@
           <div>
 
 
-            <input type="text" name="wp-phone" id="phone" placeholder="WhatsApp Number" class="formbold-form-input" />
+            <input type="text" name="wp-phone" id="phone" placeholder="WhatsApp Number" class="formbold-form-input" required />
           </div>
         </div>
 
         <div class="formbold-mb-3">
           <label for="dob" class="formbold-form-label"> Date of Birth </label>
-          <input type="date" name="dob" id="dob" class="formbold-form-input" />
+          <input type="date" name="dob" id="dob" class="formbold-form-input" required />
         </div>
 
         <div class="formbold-mb-3">
           <label class="formbold-form-label">Gender</label>
 
-          <select class="formbold-form-input" name="gender" id="occupation">
+          <select class="formbold-form-input" name="gender" id="occupation" required>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="others">Others</option>
@@ -69,18 +72,18 @@
 
 
             <input type="text" name="nationality" id="Nationality" placeholder="Nationality"
-              class="formbold-form-input" />
+              class="formbold-form-input" required />
           </div>
         </div>
 
         <div class="formbold-mb-3">
           <label class="formbold-form-label">Highest Educational Qualification</label>
 
-          <select class="formbold-form-input" name="qualification" id="occupation">
-            <option value="male">High School Diploma</option>
-            <option value="female">Bachelor's Degree</option>
-            <option value="others">Master's Degree</option>
-            <option value="female">Doctorate</option>
+          <select class="formbold-form-input" name="qualification" id="occupation" required>
+            <option value="High School Diploma">High School Diploma</option>
+            <option value="Bachelor's Degree">Bachelor's Degree</option>
+            <option value="Master's Degree">Master's Degree</option>
+            <option value="Doctorate">Doctorate</option>
             <option value="others">Other </option>
           </select>
         </div>
@@ -92,29 +95,29 @@
 
 
             <input type="text" name="name_last_edu_att" id="Name of the Last Educational Institution Attended"
-              placeholder="Name" class="formbold-form-input" />
+              placeholder="Name" class="formbold-form-input" required />
           </div>
         </div>
         <div class="formbold-mb-3">
           <label for="age" class="formbold-form-label"> Year of Graduation</label>
           <input type="text" name="year_graduated" id="Year of Graduation" placeholder="Year"
-            class="formbold-form-input" />
+            class="formbold-form-input" required />
         </div>
 
 
         <div class="formbold-mb-3">
           <label for="age" class="formbold-form-label"> Major/Field of Study </label>
           <input type="text" name="major_study_feald" id="Major/Field of Study" placeholder=""
-            class="formbold-form-input" />
+            class="formbold-form-input" required />
         </div>
         <div class="formbold-mb-3">
           <label class="formbold-form-label">Current Occupation</label>
 
-          <select class="formbold-form-input" name="occupation" id="occupation">
-            <option value="male">Employed</option>
-            <option value="female">Self-Employed</option>
-            <option value="others">Unemployed</option>
-            <option value="female">Student</option>
+          <select class="formbold-form-input" name="occupation" id="occupation" required>
+            <option value="Employed">Employed</option>
+            <option value="Self-Employed">Self-Employed</option>
+            <option value="Unemployed">Unemployed</option>
+            <option value="Student">Student</option>
             <option value="others">Other </option>
           </select>
         </div>
@@ -122,20 +125,20 @@
         <div class="formbold-mb-3">
           <label for="age" class="formbold-form-label"> Place of Employment</label>
           <input type="text" name="place_of_employment" id="Place of Employment" placeholder=""
-            class="formbold-form-input" />
+            class="formbold-form-input" required />
         </div>
         <div class="formbold-mb-3">
           <label for="age" class="formbold-form-label"> Name of Employer</label>
-          <input type="text" name="name_of_employer" id="Name of Employer" placeholder="" class="formbold-form-input" />
+          <input type="text" name="name_of_employer" id="Name of Employer" placeholder="" class="formbold-form-input" required />
         </div>
         <div class="formbold-mb-3">
           <label for="age" class="formbold-form-label"> Job Title </label>
-          <input type="text" name="job_title" id=" Job Title " placeholder="" class="formbold-form-input" />
+          <input type="text" name="job_title" id=" Job Title " placeholder="" class="formbold-form-input" required />
         </div>
         <div class="formbold-mb-3">
           <label class="formbold-form-label">Course Opted</label>
 
-          <select class="formbold-form-input" name="course_opted" id="occupation">
+          <select class="formbold-form-input" name="course_opted" id="occupation" required>
             <option value="IELTS">IELTS</option>
             <option value="OET">OET</option>
             <option value="German">German</option>
@@ -147,10 +150,10 @@
         <div class="formbold-mb-3">
           <label class="formbold-form-label">Formal Coaching for English Courses Studied Before</label>
 
-          <select class="formbold-form-input" name="english_courses_before" id="occupation">
-            <option value="IELTS">Have you received any formal coaching for English courses before?</option>
-            <option value="OET">Yes</option>
-            <option value="German">No</option>
+          <select class="formbold-form-input" name="english_courses_before" id="occupation" required>
+            <option value="">Have you received any formal coaching for English courses before?</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
 
           </select>
         </div>
@@ -160,34 +163,34 @@
           <label for="address" class="formbold-form-label"> Address </label>
 
           <input type="text" name="address" id="address" placeholder="Street address"
-            class="formbold-form-input formbold-mb-3" />
+            class="formbold-form-input formbold-mb-3" required />
           <input type="text" name="address2" id="address2" placeholder="Street address line 2"
-            class="formbold-form-input" />
+            class="formbold-form-input" required />
         </div>
 
 
         <div class="formbold-input-flex">
           <div>
             <label for="post" class="formbold-form-label"> Post/Zip code </label>
-            <input type="text" name="post" id="post" placeholder="ex:8976" class="formbold-form-input" />
+            <input type="text" name="post" id="post" placeholder="ex:8976" class="formbold-form-input" required />
           </div>
           <div>
             <label for="city" class="formbold-form-label"> City </label>
-            <input type="text" name="city" id="city" placeholder="ex: New York" class="formbold-form-input" />
+            <input type="text" name="city" id="city" placeholder="ex: New York" class="formbold-form-input" required />
           </div>
         </div>
         <div class="formbold-input-flex">
           <div>
             <label for="town" class="formbold-form-label"> Town/Village </label>
-            <input type="text" name="town" id="post" placeholder="ex:8976" class="formbold-form-input" />
+            <input type="text" name="town" id="post" placeholder="ex:8976" class="formbold-form-input" required />
           </div>
           <div>
             <label for="city" class="formbold-form-label"> District/County </label>
-            <input type="text" name="district" id="city" placeholder="ex: New York" class="formbold-form-input" />
+            <input type="text" name="district" id="city" placeholder="ex: New York" class="formbold-form-input" required />
           </div>
           <div>
             <label for="city" class="formbold-form-label"> State/Province</label>
-            <input type="text" name="state" id="city" placeholder="ex: New York" class="formbold-form-input" />
+            <input type="text" name="state" id="city" placeholder="ex: New York" class="formbold-form-input" required />
           </div>
         </div>
 
@@ -197,7 +200,7 @@
         <div class="formbold-mb-3">
           <label class="formbold-form-label">Payment Method</label>
 
-          <select class="formbold-form-input" name="payment_method" id="occupation">
+          <select class="formbold-form-input" name="payment_method" id="occupation" required>
             <option value="Credit Card">Credit Card</option>
             <option value="Debit Card">Debit Card</option>
             <option value="PayPal">PayPal</option>
@@ -208,7 +211,7 @@
 
         <div class="formbold-mb-3">
           <label for="age" class="formbold-form-label"> Payment Amount</label>
-          <input type="text" name="payment_amount" id=" Payment Amount " placeholder="" class="formbold-form-input" />
+          <input type="text" name="payment_amount" id=" Payment Amount " placeholder="" class="formbold-form-input" required />
         </div>
 
 
@@ -218,26 +221,26 @@
           <label for="upload" class="formbold-form-label">
             Upload Payment Screenshot
           </label>
-          <input type="file" name="pay_screenshot" id="upload" class="formbold-form-input formbold-form-file" />
+          <input type="file" name="pay_screenshot" value="Payment Screenshot" id="upload" class="formbold-form-input formbold-form-file" required />
         </div>
         <div class="formbold-mb-3">
           <label for="upload" class="formbold-form-label">
             Upload Passport-Sized Photo
           </label>
-          <input type="file" name="passport_size_photo" id="upload" class="formbold-form-input formbold-form-file" />
+          <input type="file" name="passport_size_photo" value="Passport-Sized Photo" id="upload" class="formbold-form-input formbold-form-file" required />
         </div>
         <div class="formbold-mb-3">
           <label for="age" class="formbold-form-label"> Emergency Contact Information</label>
           <input type="text" name="emergency_contact_nformation" id="Emergency Contact Information"
-            placeholder="Emergency Contact Name" class="formbold-form-input" />
+            placeholder="Emergency Contact Name" class="formbold-form-input" required />
           <br>
           <br>
           <input type="text" name="relationship_to_student" id="Relationship to Student"
-            placeholder="Relationship to Student" class="formbold-form-input" />
+            placeholder="Relationship to Student" class="formbold-form-input" required />
           <br>
           <br>
           <input type="text" name="emergency_contact_phone_number" id="Emergency Contact Phone Number"
-            placeholder="Emergency Contact Phone Number" class="formbold-form-input" />
+            placeholder="Emergency Contact Phone Number" class="formbold-form-input" required />
         </div>
         <div class="formbold-checkbox-wrapper">
           <label for="supportCheckbox" class="formbold-checkbox-label">
@@ -263,6 +266,8 @@
       </form>
     </div>
   </div>
+  <br>
+  <br>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
@@ -306,7 +311,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 5px;
+      padding: 15px;
     }
 
     .formbold-form-wrapper {
@@ -314,7 +319,7 @@
       max-width: 100%;
       width: 100%;
       background: white;
-      padding: 10px;
+      padding: 15px;
     }
 
     .formbold-img {
