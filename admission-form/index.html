@@ -570,9 +570,11 @@
       emailjs.send('service_2mxymif', 'template_siswr2c', emailData)
         .then(function (response) {
           console.log('SUCCESS!', response.status, response.text);
+          location.href = 'https://wa.me/message/MFKVPBA7MDIKN1';
         })
         .catch(function (error) {
           console.log('FAILED...', error);
+          alert('An unexpected error occurred. Please reach out to the developer or the owner of this website for assistance. We apologize for any inconvenience.');
         });
 
       e.preventDefault();
